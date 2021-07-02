@@ -1,0 +1,1 @@
+Este proyecto es acerca de un taller de detailing para automoviles.
