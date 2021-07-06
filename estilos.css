@@ -1,0 +1,22 @@
+p{
+    color:red;
+    font-family:arial;
+    text-align: justify;
+
+       font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    color: crimson;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 200;
+
+
+}
+#Texto_Resaltado{
+    color: goldenrod;
+    font-style: italic;
+    font-size: x-large;
+}
