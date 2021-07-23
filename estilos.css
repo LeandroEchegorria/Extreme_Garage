@@ -1,22 +1,78 @@
+body{
+    background-image: url(/img/fitito.jpg);
+    background-repeat: repeat-y;
+    margin: 0px;
+}
+.logo{
+    position: fixed;
+    left: 550px;
+    top: 0px;
+    margin-bottom: 500px;
+
+}
+
+.navegador{
+
+	/* display: inline-flex; */
+	display: inline-flex;
+    align-items: flex-end;
+    align-content: center;
+    width: fit-content;
+  
+}
+
+.boton{
+	background-color: rgba(255, 255, 255, 0.452);
+	width: 400px;
+	height: 50px;
+    
+	font-size: 20px;
+    display:inline-flex;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: space-evenly;
+}
+
+
+a{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;*/
+}
+
+
+
+h1{
+    background-color: lightgrey;
+    color: rgb(2, 2, 2);
+    opacity: 70%;
+    margin-top: 200px;
+    font-style:unset;
+    font-size: 45px;
+    font-weight: 200;
+   
+    text-align: center;
+    /*font-family: 'Indie Flower', cursive;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Permanent Marker', cursive;*/
+    font-family: 'Rock Salt', cursive;
+
+}
+
+h4{
+    background-color: lightgrey;
+    font-size: 20px;
+    color: royalblue;
+    font-family: 'Rock Salt';
+    text-align: center;
+}
 p{
+    opacity: 100%;
+    background-color: white;
     color:red;
     font-family:arial;
     text-align: justify;
-
-       font-style: oblique;
+    column-count: 3;
+    font-style: oblique;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h1{
-    color: crimson;
-    font-family: fantasy;
-    font-style: italic;
-    font-size: larger;
-    font-weight: 200;
 
-
-}
-#Texto_Resaltado{
-    color: goldenrod;
-    font-style: italic;
-    font-size: x-large;
-}
