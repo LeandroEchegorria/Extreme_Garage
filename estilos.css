@@ -8,72 +8,72 @@ body{
     top:10px;
     left: 550px;
     margin-bottom: 50px;
-    
-
 }
 
 .navegador{
-
-	/* display: inline-flex; */
-	display: inline-flex;
-    align-items: flex-end;
-    align-content: center;
-    width: fit-content;
-  
+	display: flex;
+    justify-content: space-evenly; 
+    
 }
 
 .boton{
-	background-color: rgba(255, 255, 255, 0.452);
-	width: 400px;
+	
 	height: 50px;
-    
 	font-size: 20px;
-    display:inline-flex;
-    justify-content: center;
-    align-content: space-evenly;
-    align-items: space-evenly;
+    text-align: center;
 }
-
 
 a{
+    
     font-size: 20px;
-    font-family: 'Permanent Marker', cursive;*/
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(209, 209, 4);
+    background-color: rgba(0, 0, 0, 0.836);
 }
-
-
 
 h1{
     background-color: lightgrey;
-    color: rgb(2, 2, 2);
-    opacity: 70%;
+    color: black;
+    border-color: yellow;
+    border-width: 10px;
+    opacity: 80%;
     margin-top: 170px;
     font-style:unset;
-    font-size: 45px;
-    font-weight: 200;
-   
+    font-size: 50px;
+    font-weight: 200;   
     text-align: center;
     /*font-family: 'Indie Flower', cursive;
     font-family: 'Luckiest Guy', cursive;
     font-family: 'Permanent Marker', cursive;*/
-    font-family: 'Rock Salt', cursive;
-
+    font-family: 'Tourney', cursive;
 }
 
 h4{
-    background-color: lightgrey;
-    font-size: 20px;
+    background-color: rgba(211, 211, 211, 0.815);
+    font-size: 25px;
     color: royalblue;
     font-family: 'Rock Salt';
     text-align: center;
 }
 p{
-    opacity: 100%;
-    background-color: white;
-    color:red;
-    font-family:arial;
+    background-color: lightgrey;
+    color:black;
+    font-family: 'Rock Salt', cursive;
     text-align: justify;
-    column-count: 3;
     font-style: oblique;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+    margin: 10px;
 }
 
+#servicios{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    color: black;
+    font-size: 20px;
+    background-color: lightgrey;
+    opacity: 0.8;
+   
+}
