@@ -1,9 +1,30 @@
+body{
+    background-image: url(/img/fitito.jpg);
+    background-repeat: repeat-y;
+    margin: 0px;  
+}
+.logo{
+    position: fixed;
+    top:10px;
+    left: 550px;
+    margin-bottom: 50px;
+}
+h1{
+    margin-top: 120px;
+    font-family: 'Tourney', cursive;
+    background-color: rgba(255, 255, 0, 0.801);
+}
+
 .contenedor{
-	background-color: yellow;
-	height: 450px;
+	background-color: rgba(255, 255, 0, 0.801);
+	height: fit-content;
 	display: inline-flex;
 	flex-wrap: wrap;
     border-style: hidden;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    width: 80%;
+    margin-left: 100px;
    
 	/*align-content: flex-start;*/
 	/*align-content: flex-end;*/
@@ -14,9 +35,19 @@
 }
 
 .item{
-	background-color: #ccc;
-	width: 25%;
+	background-color: rgb(182, 29, 29);
+	width: fit-content;
+    height: 200px;
 	margin: 10px;
 	font-size: 20px;
+    border-radius: 10px;
+}
+video{
+    background-color: rgb(182, 29, 29);
+	width: 300px;
+    height: 300px;
+	margin: 10px;
+	font-size: 20px;
+    border-radius: 10px; 
 }
 

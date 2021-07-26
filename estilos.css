@@ -4,10 +4,14 @@ body{
     margin: 0px;
 }
 .logo{
-    position: fixed;
-    top:10px;
-    left: 550px;
-    margin-bottom: 50px;
+    position: static;
+    top: 10px;
+    margin-left: 550px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    
+    
+    
 }
 
 .navegador{
@@ -24,20 +28,19 @@ body{
 }
 
 a{
-    
-    font-size: 20px;
+   
+    font-size: 25px;
     font-family: 'Permanent Marker', cursive;
     color: rgb(209, 209, 4);
     background-color: rgba(0, 0, 0, 0.836);
 }
 
 h1{
-    background-color: lightgrey;
+    background-color: lightyellow;
     color: black;
-    border-color: yellow;
-    border-width: 10px;
+    
     opacity: 80%;
-    margin-top: 170px;
+    margin-top: 10px;
     font-style:unset;
     font-size: 50px;
     font-weight: 200;   
@@ -49,14 +52,14 @@ h1{
 }
 
 h4{
-    background-color: rgba(211, 211, 211, 0.815);
+    background-color: rgba(255, 255, 224, 0.781);
     font-size: 25px;
-    color: royalblue;
+    color: red;
     font-family: 'Rock Salt';
     text-align: center;
 }
 p{
-    background-color: lightgrey;
+    background-color: lightyellow;
     color:black;
     font-family: 'Rock Salt', cursive;
     text-align: justify;
@@ -64,16 +67,30 @@ p{
     font-size: 20px;
     opacity: 0.8;
     margin: 10px;
+    padding: 10px;
 }
 
 #servicios{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
     font-family: 'Rock Salt', cursive;
     color: black;
     font-size: 20px;
-    background-color: lightgrey;
+    background-color: lightyellow;
     opacity: 0.8;
+    padding: 10px 150px 10px 150px;
    
+}
+.facebook{
+  margin-left: 230px;
+  display:inline;
+  padding: 5px;
+    
+}
+.IG{
+    display:inline;
+    margin-left: 300px;
+    padding: 5px;
+    
 }
