@@ -1,5 +1,5 @@
 body{
-    background-image: url(/img/fitito.jpg);
+    background-image: url(img/fitito.jpg);
     background-repeat: repeat-y;
     margin: 0px;
 }
@@ -80,7 +80,15 @@ p{
     background-color: lightyellow;
     opacity: 0.8;
     padding: 10px 150px 10px 150px;
+    
    
+}
+li{
+    -webkit-transition: -webkit-transform 0.3s ;
+}
+#servicios li:hover{
+    -webkit-transform: scale(1.1);
+
 }
 .facebook{
   margin-left: 230px;
@@ -93,4 +101,10 @@ p{
     margin-left: 300px;
     padding: 5px;
     
+}
+#footer{
+    background-color: black;
+    color: yellow;
+    font-family: 'Permanent Marker', cursive;
+  
 }
