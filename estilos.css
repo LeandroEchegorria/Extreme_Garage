@@ -1,110 +1,127 @@
-body{
-    background-image: url(img/fitito.jpg);
-    background-repeat: repeat-y;
-    margin: 0px;
+body {
+  background-image: url(img/fitito.jpg);
+  background-repeat: repeat-y;
+  margin: 0px;
 }
-.logo{
-    position: static;
-    top: 10px;
-    margin-left: 550px;
-    margin-right: 400px;
-    margin-bottom: 10px;
-    
-    
-    
+header{
+  background-color: rgba(0, 0, 0, 0.774);
+  padding: 1em 0;
 }
-
-.navegador{
-	display: flex;
-    justify-content: space-evenly; 
-    
+header h1{
+  color: white;
+  background-color: black;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: 200;
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  margin-left: 0.5em;
+  font-family: "Tourney", cursive;
 }
-
-.boton{
-	
-	height: 50px;
-	font-size: 20px;
-    text-align: center;
-}
-
-a{
-   
-    font-size: 25px;
-    font-family: 'Permanent Marker', cursive;
-    color: rgb(209, 209, 4);
-    background-color: rgba(0, 0, 0, 0.836);
-}
-
-h1{
-    background-color: lightyellow;
-    color: black;
-    
-    opacity: 80%;
-    margin-top: 10px;
-    font-style:unset;
-    font-size: 50px;
-    font-weight: 200;   
-    text-align: center;
-    /*font-family: 'Indie Flower', cursive;
-    font-family: 'Luckiest Guy', cursive;
-    font-family: 'Permanent Marker', cursive;*/
-    font-family: 'Tourney', cursive;
-}
-
-h4{
-    background-color: rgba(255, 255, 224, 0.781);
-    font-size: 25px;
-    color: red;
-    font-family: 'Rock Salt';
-    text-align: center;
-}
-p{
-    background-color: lightyellow;
-    color:black;
-    font-family: 'Rock Salt', cursive;
-    text-align: justify;
-    font-style: oblique;
-    font-size: 20px;
-    opacity: 0.8;
-    margin: 10px;
-    padding: 10px;
-}
-
-#servicios{
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
-    font-family: 'Rock Salt', cursive;
-    color: black;
-    font-size: 20px;
-    background-color: lightyellow;
-    opacity: 0.8;
-    padding: 10px 150px 10px 150px;
-    
-   
-}
-li{
-    -webkit-transition: -webkit-transform 0.3s ;
-}
-#servicios li:hover{
-    -webkit-transform: scale(1.1);
+header h1:hover{
+  transform: transform 0.3s;
+  color: red;
 
 }
-.facebook{
-  margin-left: 230px;
-  display:inline;
-  padding: 5px;
-    
+
+
+
+nav{
+  background-color: black;
+  margin-bottom: 2em;
 }
-.IG{
-    display:inline;
-    margin-left: 300px;
-    padding: 5px;
-    
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-#footer{
-    background-color: black;
-    color: yellow;
-    font-family: 'Permanent Marker', cursive;
+nav ul li{
+  display: inline-block;
+  width: 19.5%;
+}
+nav ul li a{
+  color: yellow;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+  background-color: yellow;
+  color: black;
+}
+
+a {
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(209, 209, 4);
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+
+section{
   
+	margin: auto ;
+	width: 800px;
+}
+h4 {
+  background-color: rgba(0, 0, 0, 0.774);
+  font-size: 25px;
+  color: rgb(255, 230, 0);
+  font-family: "Rock Salt";
+  text-align: center;
+}
+p {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Rock Salt", cursive;
+  text-align: justify;
+  font-style: oblique;
+  font-size: 20px;
+  opacity: 0.8;
+  margin: 10px;
+  padding: 10px;
+}
+
+#servicios {
+
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  opacity: 0.8;
+  padding: 10px 150px 10px 150px;
+}
+li {
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+#servicios li:hover {
+  -webkit-transform: scale(1.1);
+  transform: transform 0.3s;
+  color: red;
+}
+.facebook {
+  margin-left: 230px;
+  display: inline;
+  padding: 5px;
+}
+.IG {
+  display: inline;
+  margin-left: 300px;
+  padding: 5px;
+}
+#footer {
+  background-color: black;
+  color: yellow;
+  font-family: "Permanent Marker", cursive;
+ 
+}
+footer{
+  
+	margin: 0 0 0 25px;
+	width: 400px;
+  text-align: center;
 }
