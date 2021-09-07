@@ -7,6 +7,10 @@ header{
   background-color: rgba(0, 0, 0, 0.774);
   padding: 1em 0;
 }
+header img{
+  margin-left: 10px;
+  box-shadow: 0 0 20px white;
+}
 header h1{
   color: white;
   background-color: black;
@@ -22,6 +26,7 @@ header h1{
 header h1:hover{
   transform: transform 0.3s;
   color: red;
+  text-shadow: 5px 5px 10px white ;
 
 }
 
@@ -30,6 +35,7 @@ header h1:hover{
 nav{
   background-color: black;
   margin-bottom: 2em;
+  box-shadow: 10px 5px 15px gray;
 }
 nav ul{
   list-style: none;
@@ -122,6 +128,11 @@ li {
 footer{
   
 	margin: 0 0 0 25px;
-	width: 400px;
+	width: 95%;
   text-align: center;
+}
+footer p {
+  text-align: right;
+  font-size:medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

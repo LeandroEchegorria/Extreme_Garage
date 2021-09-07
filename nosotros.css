@@ -1,0 +1,86 @@
+body {
+    background-image: url(img/fitito.jpg);
+    background-repeat: repeat-y;
+    margin: 0px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 30px;
+  }
+  .logo {
+    position: static;
+    top: 10px;
+    margin-left: 550px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+  }
+  nav{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+
+    font-size: 25px;
+  }
+  
+
+img{
+    width: 400px;
+    height: 300px;
+    margin: auto auto ;
+    position: center;
+}
+
+aside{
+    float: right;
+    background-color: rgba(255, 0, 0, 0.493);
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 50px;
+} 
+.texto{
+    background-color: rgba(0, 0, 255, 0.425);
+    text-align: center;
+    color: whitesmoke;
+}
+  
+  h1 {
+    background-color: lightyellow;
+    color: black;
+    opacity: 80%;
+    margin-top: 10px;
+    font-style: unset;
+    font-size: 50px;
+    font-weight: 200px;
+    text-align: center;
+    /*font-family: 'Indie Flower', cursive;
+      font-family: 'Luckiest Guy', cursive;
+      font-family: 'Permanent Marker', cursive;*/
+    font-family: "Tourney", cursive;
+    width: 800px;
+  }
+  section{
+    float: left;
+    margin: 0 0 0 25px;
+    width: 450px;
+    font-size: 20px;
+  }
+ 
+ 
+
+  
+  .facebook {
+    margin-left: 230px;
+    display: inline;
+    padding: 5px;
+  }
+  .IG {
+    display: inline;
+    margin-left: 300px;
+    padding: 5px;
+  }
+
+  footer{
+    float: right;
+      margin: 0 0 0 25px;
+      width: 400px;
+    text-align: center;
+  }
