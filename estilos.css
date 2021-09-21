@@ -4,11 +4,12 @@ body {
   margin: 0px;
 }
 header{
-  background-color: rgba(0, 0, 0, 0.774);
-  padding: 1em 0;
+  
+  padding: 0;
+
 }
 header img{
-  margin-left: 10px;
+  margin: 0;
   box-shadow: 0 0 20px white;
 }
 header h1{
@@ -16,12 +17,12 @@ header h1{
   background-color: black;
   font-size: 3em;
   font-style: italic;
-  font-weight: 200;
   display: inline-block;
   position: relative;
-  bottom: 30px;
   margin-left: 0.5em;
+  margin-top: 1px;
   font-family: "Tourney", cursive;
+ 
 }
 header h1:hover{
   transform: transform 0.3s;
@@ -34,8 +35,9 @@ header h1:hover{
 
 nav{
   background-color: black;
-  margin-bottom: 2em;
+  margin-bottom: 0.1em;
   box-shadow: 10px 5px 15px gray;
+
 }
 nav ul{
   list-style: none;
@@ -51,7 +53,7 @@ nav ul li a{
   text-decoration: none;
   text-align: center;
   display: block;
-  padding: 0.2em 0.4em;
+
 }
 nav ul li a:hover{
   background-color: yellow;
@@ -69,8 +71,9 @@ a {
 section{
   
 	margin: auto ;
-	width: 800px;
+	width: 90%;
 }
+
 h4 {
   background-color: rgba(0, 0, 0, 0.774);
   font-size: 25px;
@@ -78,6 +81,7 @@ h4 {
   font-family: "Rock Salt";
   text-align: center;
 }
+
 p {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
@@ -87,20 +91,27 @@ p {
   font-size: 20px;
   opacity: 0.8;
   margin: 10px;
-  padding: 10px;
+ 
+}
+.izquierda{
+  float: left;
+  width: 5%;
 }
 
-#servicios {
 
+#servicios {
+  width: 90%;
   text-align: center;
+  justify-content: center;
   font-family: "Rock Salt", cursive;
   color: white;
   font-size: 20px;
   background-color: black;
   opacity: 0.8;
-  padding: 10px 150px 10px 150px;
+  margin: auto;
 }
-li {
+#servicios li {
+  padding: 5px;
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
 }

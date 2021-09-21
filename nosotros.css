@@ -3,70 +3,86 @@ body {
     background-repeat: repeat-y;
     margin: 0px;
     font-family: "Permanent Marker", cursive;
-    font-size: 30px;
+   
   }
-  .logo {
-    position: static;
-    top: 10px;
-    margin-left: 550px;
-    margin-right: 400px;
-    margin-bottom: 10px;
+  
+  header{
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 1em 0;
+  }
+  header img{
+    margin-left: 10px;
+    box-shadow: 0 0 20px white;
+  }
+  header h1{
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 0.5em;
+    font-family: "Tourney", cursive;
+  }
+  header h1:hover{
+    transform: transform 0.3s;
+    color: red;
+    text-shadow: 5px 5px 10px white ;
+  
   }
   nav{
-    float: left;
-    width: 200px;
-    text-align: center;
-    margin-top: 50px;
-
-    font-size: 25px;
+    background-color: black;
+    margin-bottom: 2em;
+    box-shadow: 10px 5px 15px gray;
   }
-  
-
-img{
-    width: 400px;
-    height: 300px;
-    margin: auto auto ;
-    position: center;
-}
-
-aside{
-    float: right;
-    background-color: rgba(255, 0, 0, 0.493);
-    margin-top: 100px;
-    margin-right: 100px;
-    padding: 50px;
-} 
-.texto{
-    background-color: rgba(0, 0, 255, 0.425);
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li{
+    display: inline-block;
+    width: 19.5%;
+  }
+  nav ul li a{
+    color: yellow;
+    text-decoration: none;
     text-align: center;
-    color: whitesmoke;
-}
-  
-  h1 {
-    background-color: lightyellow;
+    display: block;
+    padding: 0.2em 0.4em;
+  }
+  nav ul li a:hover{
+    background-color: yellow;
     color: black;
-    opacity: 80%;
-    margin-top: 10px;
-    font-style: unset;
-    font-size: 50px;
-    font-weight: 200px;
-    text-align: center;
-    /*font-family: 'Indie Flower', cursive;
-      font-family: 'Luckiest Guy', cursive;
-      font-family: 'Permanent Marker', cursive;*/
-    font-family: "Tourney", cursive;
-    width: 800px;
+  }
+  a {
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(209, 209, 4);
+    background-color: rgba(0, 0, 0, 0.836);
   }
   section{
-    float: left;
-    margin: 0 0 0 25px;
-    width: 450px;
-    font-size: 20px;
+    color: white;
+    margin: auto ;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.774);
   }
- 
- 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
   .facebook {
     margin-left: 230px;
     display: inline;
@@ -78,9 +94,23 @@ aside{
     padding: 5px;
   }
 
+  #footer {
+    background-color: black;
+    color: yellow;
+    font-family: "Permanent Marker", cursive;
+   
+  }
   footer{
-    float: right;
-      margin: 0 0 0 25px;
-      width: 400px;
+    
+    margin: 0 0 0 25px;
+    width: 95%;
     text-align: center;
   }
+  footer p {
+    text-align: right;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+
+  

@@ -4,52 +4,78 @@ body{
     margin: 0px; 
  
 }
-.logo{
-    position: static;
-    top: 10px;
-    margin-left: 560px;
-    margin-right: 525px;
-    
+header{
+    background-color: rgba(0, 0, 0, 0.774);
+    padding: 1em 0;
+  }
+  header img{
+    margin-left: 10px;
+    box-shadow: 0 0 20px white;
+  }
+  header h1{
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    margin-left: 0.5em;
+    font-family: "Tourney", cursive;
+  }
+  header h1:hover{
+    transform: transform 0.3s;
+    color: red;
+    text-shadow: 5px 5px 10px white ;
+  
+  }
+nav{
+    background-color: black;
+    margin-bottom: 2em;
+    box-shadow: 10px 5px 15px gray;
 }
-h1{ 
-    font: normal 1.5em 'Tourney';
-    background: -webkit-linear-gradient(top,rgb(237, 241, 174), rgb(139, 141, 1));
-    width: 35%;
-    border-radius: 10px;
-    margin:10px auto;
-    text-align: center;
-    padding: 15px;
-    color:black;
-    box-shadow: darkgray 5px 5px 10px;
-    text-shadow: black ;
-
-
-}
-h2{
-    font: normal 1.2em 'Tourney';
+nav ul{
+    list-style: none;
     margin: 0;
-    padding: 5px 0 5px 0;
+    padding: 0;
 }
+nav ul li{
+    display: inline-block;
+    width: 19.5%;
+}
+nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+nav ul li a:hover{
+    background-color: yellow;
+    color: black;
+}  
+a {
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+ }
 section{
     width: 91%;
-    border-top: 1px dashed yellow;
+/*   border-top: 1px dashed yellow;*/
     margin: 5px auto;
 }
 .contenedor{
-	background-color: rgba(255, 255, 0, 0.801);
+	background-color: rgba(24, 24, 24, 0.801);
 	height: fit-content;
 	display: inline-flex;
-	flex-wrap: wrap;
-    border-style: hidden;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-    width: 80%;
-    margin-left: 100px;
+	flex-wrap: wrap;  
+    justify-content: space-evenly;   
+    width: 95%;
+    margin: 3%;
 }
 
-
 .item{
-	background-color: rgb(182, 29, 29);
+	background-color: rgba(234, 255, 46, 0.719);
 	width: fit-content;
     height: 200px;
 	margin: 10px;
@@ -67,12 +93,16 @@ section{
 
 }
 
-video{
-    background-color: rgb(182, 29, 29);
-	width: 300px;
-    height: 300px;
+.video{
+    background-color: rgba(234, 255, 46, 0.719);
 	margin: 10px;
 	font-size: 20px;
     border-radius: 10px; 
-    transform: scale(0.80);
+    width: fit-content;
+    height: 200px;
+    transform: scale(0.8);
+    transition: transform 0.3s ;
+}
+.video:hover{
+    transform: scale(1.1);
 }
