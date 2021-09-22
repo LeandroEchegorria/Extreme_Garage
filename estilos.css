@@ -18,11 +18,11 @@ header h1{
   font-size: 3em;
   font-style: italic;
   display: inline-block;
-  position: relative;
-  margin-left: 0.5em;
-  margin-top: 1px;
+  position:absolute;
   font-family: "Tourney", cursive;
- 
+  margin-block-end: 1%;
+  margin-block-start: 3%;
+  margin-left: 10%;
 }
 header h1:hover{
   transform: transform 0.3s;
@@ -43,10 +43,13 @@ nav ul{
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-inline-start: 10px;
+  
 }
 nav ul li{
   display: inline-block;
   width: 19.5%;
+
 }
 nav ul li a{
   color: yellow;
@@ -114,10 +117,11 @@ p {
   padding: 5px;
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  transform: scale(0.9);
 }
 #servicios li:hover {
   -webkit-transform: scale(1.1);
-  transform: transform 0.3s;
+  transition: transform 0.3s;
   color: red;
 }
 .facebook {
