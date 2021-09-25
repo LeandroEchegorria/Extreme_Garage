@@ -87,6 +87,13 @@ body {
     width: 90%;
     padding: 10px;
 }
+
+.mapa{
+    border: black solid 10px ;
+    border-radius: 10px;
+    float: right;
+    margin: 8%;
+}
 .facebook {
     margin-left: 230px;
     display: inline;
