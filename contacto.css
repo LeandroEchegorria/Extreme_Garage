@@ -1,0 +1,116 @@
+body {
+    background-image: url(img/fitito.jpg);
+    background-repeat: repeat-y;
+    margin: 0px;
+  }
+  header{
+    
+    padding: 0;
+  
+  }
+  header img{
+    margin: 0;
+    box-shadow: 0 0 20px white;
+  }
+  header h1{
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    font-style: italic;
+    display: inline-block;
+    position:absolute;
+    font-family: "Tourney", cursive;
+    margin-block-end: 1%;
+    margin-block-start: 3%;
+    margin-left: 10%;
+  }
+  header h1:hover{
+    transform: transform 0.3s;
+    color: red;
+    text-shadow: 5px 5px 10px white ;
+  
+  }
+   
+  nav{
+    background-color: black;
+    margin-bottom: 0.1em;
+    box-shadow: 10px 5px 15px gray;
+  
+  }
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 10px;
+    
+  }
+  nav ul li{
+    display: inline-block;
+    width: 19.5%;
+  
+  }
+  nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  
+  }
+  nav ul li a:hover{
+    background-color: yellow;
+    color: black;
+  }
+  
+  a {
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(209, 209, 4);
+    background-color: rgba(0, 0, 0, 0.836);
+  }
+  
+  
+#formulario{ 
+    width: fit-content;
+    background-color: rgba(222, 184, 135, 0.63);
+    color: black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.5rem ;
+    float: left;
+}
+#formulario h2{
+    font-style:initial;
+    background-color: yellow;
+}
+  section{
+    
+    margin: auto ;
+    width: 90%;
+    padding: 10px;
+}
+.facebook {
+    margin-left: 230px;
+    display: inline;
+    padding: 5px;
+  }
+  .IG {
+    display: inline;
+    margin-left: 300px;
+    padding: 5px;
+  }
+  #footer {
+    background-color: black;
+    color: yellow;
+    font-family: "Permanent Marker", cursive;
+   
+  }
+  footer{    
+    margin: 0 0 0 25px;
+    width: 95%;
+    text-align: center;
+  }
+  footer p {
+    text-align: right;
+    font-size:medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
