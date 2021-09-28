@@ -180,7 +180,15 @@ footer p {
   header h1{
     font-size: 1.5em;
   }
+  header img {
+    width: 80px;
+    height: 80px;
+  }
 }
-@media screen and (min-width:641px) and (max-width:1280px) { /*PARA PC*/
 
+@media screen and (min-width:641px) and (max-width:1280px) { /*PARA PC*/
+  header img {
+    width: 120px;
+    height: 120px;
+  }
 }
