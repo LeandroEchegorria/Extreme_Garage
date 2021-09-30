@@ -1,5 +1,5 @@
 body {
-  background-image: url(img/fitito.jpg);
+  background-image: url(/img/fitito.jpg);
   background-repeat: repeat-y;
   margin: 0px;
 }
@@ -29,10 +29,6 @@ header h1:hover{
   color: red;
   text-shadow: 5px 5px 10px white ;
 
-}
-header img{
-  width: 120px; 
-  height: 120px;
 }
 
 
@@ -68,7 +64,7 @@ nav ul li a:hover{
 }
 
 a {
-  font-size: 25px;
+  font-size: 1.5em;
   font-family: "Permanent Marker", cursive;
   color: rgb(209, 209, 4);
   background-color: rgba(0, 0, 0, 0.836);
@@ -157,14 +153,11 @@ footer p {
 }
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 640px){ /*PARA CELULARES*/
+@media screen and (min-width:100px) and (max-width: 420px){ /*PARA CELULARES*/
   header h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
-  header img {
-    width: 80px;
-    height: 80px;
-  }
+
   nav ul li a{
     font-size: small;
   }
@@ -176,19 +169,17 @@ footer p {
   }
 };
 
-@media screen and (min-width:641px) and (max-width:1280px) { /*PARA TABLETS*/
+@media screen and (max-width:420px)  { /*PARA TABLETS*/
   header h1{
     font-size: 1.5em;
   }
-  header img {
-    width: 80px;
-    height: 80px;
+  nav ul li a{
+    font-size: small;
   }
 }
 
-@media screen and (min-width:641px) and (max-width:1280px) { /*PARA PC*/
-  header img {
-    width: 120px;
-    height: 120px;
+@media screen and (min-width:800px) and (max-width:1520px){ /*PARA PC*/
+  header h1{
+    font-size: 3em;
   }
 }
