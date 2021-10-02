@@ -91,8 +91,8 @@ body {
 .mapa{
     border: black solid 10px ;
     border-radius: 10px;
-    float: right;
-    margin: 8%;
+    
+    margin: 10% 30% 30% 30%;
 }
 .facebook {
     margin-left: 230px;
