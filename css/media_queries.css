@@ -1,0 +1,31 @@
+/*MEDIA QUERIES*/
+@media screen and (min-width:100px) { /*PARA CELULARES*/
+    header h1{
+      font-size: 1.2em;
+    }
+  
+    nav ul li a{
+      font-size: small;
+    }
+    h4{
+      font-size: small;
+    }
+    p{
+      font-size: medium;
+    }
+  };
+  
+  @media screen and (min-width:420px) and (min-width:799px) { /*PARA TABLETS*/
+    header h1{
+      font-size: 1.5em;
+    }
+    nav ul li a{
+      font-size: medium;
+    }
+  }
+  
+  @media screen and (min-width:800px) { /*PARA PC*/
+    header h1{
+      font-size: 3em;
+    }
+  }
