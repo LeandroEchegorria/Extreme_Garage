@@ -1,31 +1,128 @@
 /*MEDIA QUERIES*/
-@media screen and (min-width:100px) { /*PARA CELULARES*/
+@media all and (max-width:419px) { 
     header h1{
-      font-size: 1.2em;
+        color: white;
+        background-color: black;
+        font-size: 1.5em;
+        font-style: italic;
+        display: inline-block;
+        position:absolute;
+        font-family: "Tourney", cursive;
+        margin-block-end: 1%;
+        margin-block-start: 3%;
+        margin-left: 10%;
     }
+    header h1:hover{
+        transform: transform 0.3s;
+        color: red;
+        text-shadow: 5px 5px 10px white ;
+      
+    }
+    nav ul li {
+        width:auto;
+        display: list-item;
+
+    }
+    section h4{
+      font-size: 0.9rem;
+    }
+    section p{
+      font-size: 0.8rem;
+    }
+   
+
   
-    nav ul li a{
-      font-size: small;
-    }
-    h4{
-      font-size: small;
-    }
-    p{
-      font-size: medium;
-    }
-  };
-  
-  @media screen and (min-width:420px) and (min-width:799px) { /*PARA TABLETS*/
+
+
+}
+@media screen and (min-width: 420px) and (max-width: 800px) {
     header h1{
-      font-size: 1.5em;
+        color: white;
+        background-color: black;
+        font-size: 2em;
+        font-style: italic;
+        display: inline-block;
+        position:absolute;
+        font-family: "Tourney", cursive;
+        margin-block-end: 1%;
+        margin-block-start: 3%;
+        margin-left: 10%;
     }
-    nav ul li a{
-      font-size: medium;
+    header h1:hover{
+        transform: transform 0.3s;
+        color: red;
+        text-shadow: 5px 5px 10px white ;
+      
     }
+    nav ul li {
+        display: inline-block;
+    }
+    section h4{
+      font-size: 0.9rem;
+    }    
+
+    section p{
+      font-size: 0.8rem;
+    }
+   
+}
+  
+@media screen and (min-width: 801px) {
+    header h1{
+        color: white;
+        background-color: black;
+        font-size: 3em;
+        font-style: italic;
+        display: inline-block;
+        position:absolute;
+        font-family: "Tourney", cursive;
+        margin-block-end: 1%;
+        margin-block-start: 3%;
+        margin-left: 10%;
+    }
+    header h1:hover{
+        transform: transform 0.3s;
+        color: red;
+        text-shadow: 5px 5px 10px white ;
+      
+    }
+
+
+nav{
+    background-color: black;
+    margin-bottom: 0.1em;
+    box-shadow: 10px 5px 15px gray;
+  
+  }
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 10px;
+    
+  }
+  nav ul li{
+    display: inline-block;
+    width: 19.5%;
+  
+  }
+  nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  
+  }
+  nav ul li a:hover{
+    background-color: yellow;
+    color: black;
   }
   
-  @media screen and (min-width:800px) { /*PARA PC*/
-    header h1{
-      font-size: 3em;
-    }
+  a {
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(209, 209, 4);
+    background-color: rgba(0, 0, 0, 0.836);
   }
+
+}

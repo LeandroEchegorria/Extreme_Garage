@@ -76,6 +76,7 @@ body {
     font-family: "Permanent Marker", cursive;
     font-size: 1.5rem ;
     float: left;
+    margin-left: 5% ;
 }
 #formulario h2{
     font-style:initial;
@@ -91,8 +92,8 @@ body {
 .mapa{
     border: black solid 10px ;
     border-radius: 10px;
-    
-    margin: 10% 30% 30% 30%;
+    float: right;
+    margin: 10% ;
 }
 .facebook {
     margin-left: 230px;
