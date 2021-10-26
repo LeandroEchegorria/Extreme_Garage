@@ -1,17 +1,20 @@
-body {
+body{
   background-image: url(/img/fitito.jpg);
   background-repeat: repeat-y;
-  margin: 0px;
-  font-family: "Permanent Marker", cursive;
-   
+  margin: 5px;
+    
+}
+body img {
+
+  margin: auto;
 }
   
   header{
-    background-color: rgba(0, 0, 0, 0.774);
-    padding: 1em 0;
+    
+    padding:0;
   }
   header img{
-    margin-left: 10px;
+    margin: 0; 
     box-shadow: 0 0 20px white;
   }
   header h1{
@@ -21,8 +24,8 @@ body {
     font-style: italic;
     font-weight: 200;
     display: inline-block;
-    position: relative;
-    bottom: 30px;
+    
+    
     margin-left: 0.5em;
     font-family: "Tourney", cursive;
   }
@@ -34,54 +37,80 @@ body {
   }
   nav{
     background-color: black;
-    margin-bottom: 2em;
+    margin-bottom: 0.1em;
     box-shadow: 10px 5px 15px gray;
+    
+  
   }
   nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-inline-start: 10px;
+    
   }
   nav ul li{
-    display: inline-block;
+    
     width: 19.5%;
+    
+  
   }
   nav ul li a{
     color: yellow;
     text-decoration: none;
     text-align: center;
     display: block;
-    padding: 0.2em 0.4em;
+    font-size: 20px;
+  
   }
   nav ul li a:hover{
     background-color: yellow;
     color: black;
   }
+  
   a {
-    font-size: 25px;
+    
+    font-size: 10px;
     font-family: "Permanent Marker", cursive;
     color: rgb(209, 209, 4);
     background-color: rgba(0, 0, 0, 0.836);
   }
+  
   section{
     color: white;
     margin: auto ;
     width: 800px;
     background-color: rgba(0, 0, 0, 0.774);
   }
+  section h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+  }
+  #foto_lat{
+    float: right;
+  }
 
+  /*GRID*/
+  .grid-container{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    grid-gap: 10px;
+    background-color: rgba(255, 0, 0, 0.678);
+    padding: 20px;
+    grid-template-rows: 90px 90px;
+    border: white solid 2px;
+    justify-content: space-evenly;
+    align-content: center;
 
-
-
-
-
-
-
-
-
-
-
-
+  }
+  .grid-item{
+    border: black solid 3px;
+    text-align: center;
+    padding: 10px;
+  
+  }
 
   .facebook {
     margin-left: 230px;
@@ -94,23 +123,21 @@ body {
     padding: 5px;
   }
 
-  #footer {
-    background-color: black;
-    color: yellow;
-    font-family: "Permanent Marker", cursive;
-   
-  }
+  
   footer{
-    
-    margin: 0 0 0 25px;
-    width: 95%;
+  
+    margin-top: 2em;
+    margin-bottom: 0px;
+    padding: 3em 0;
     text-align: center;
+    background-color: black;
+    clear: both;
   }
   footer p {
-    text-align: right;
+    color: white ;
+   
     font-size:medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
-
   

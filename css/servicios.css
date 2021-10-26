@@ -1,16 +1,17 @@
-body {
-    background-image: url(/img/fitito.jpg);
-    background-repeat: repeat-y;
-    margin: 0px;
-    font-family:'Permanent marker';
-  }
+body{
+  background-image: url(/img/fitito.jpg);
+  background-repeat: repeat-y;
+  margin: 5px;
+    
+}
+
+  
   header{
     
-    padding: 0;
-  
+    padding:0;
   }
   header img{
-    margin: 0;
+    margin: 0; 
     box-shadow: 0 0 20px white;
   }
   header h1{
@@ -18,12 +19,12 @@ body {
     background-color: black;
     font-size: 3em;
     font-style: italic;
+    font-weight: 200;
     display: inline-block;
-    position:absolute;
+    
+    
+    margin-left: 0.5em;
     font-family: "Tourney", cursive;
-    margin-block-end: 1%;
-    margin-block-start: 3%;
-    margin-left: 10%;
   }
   header h1:hover{
     transform: transform 0.3s;
@@ -31,46 +32,49 @@ body {
     text-shadow: 5px 5px 10px white ;
   
   }
-   
-  nav{
-    background-color: black;
-    margin-bottom: 0.1em;
-    box-shadow: 10px 5px 15px gray;
   
-  }
-  nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-inline-start: 10px;
-    
-  }
-  nav ul li{
-    display: inline-block;
-    width: 19.5%;
+nav{
+  background-color: black;
   
-  }
-  nav ul li a{
-    color: yellow;
-    text-decoration: none;
-    text-align: center;
-    display: block;
+  box-shadow: 10px 5px 15px gray;
+  margin: auto;
+  width: 99%;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-inline-start: 10px;
   
-  }
-  nav ul li a:hover{
-    background-color: yellow;
-    color: black;
-  }
+}
+nav ul li{
+  
+  width: 19.5%;
+  
+
+}
+nav ul li a{
+  color: yellow;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+
+}
+nav ul li a:hover{
+  background-color: yellow;
+  color: black;
+}
   
   a {
-    font-size: 25px;
+    font-size: 10px;
     font-family: "Permanent Marker", cursive;
     color: rgb(209, 209, 4);
     background-color: rgba(0, 0, 0, 0.836);
   }
 section{
     margin: auto;
-    width: 99%;
+    width: 1000px;
     background-color: rgba(0, 0, 0, 0.70);
 }
 section h3{
@@ -109,21 +113,17 @@ section h3{
     margin-left: 300px;
     padding: 5px;
   }
-  #footer {
-    background-color: black;
-    color: yellow;
-    font-family: "Permanent Marker", cursive;
-   
-  }
-  footer{    
-    margin: 0 0 0 25px;
-    width: 95%;
+  footer{
+  
+    margin-top: 2em;
+    padding: 3em 0;
     text-align: center;
-   
+    background-color: black;
+    clear: both;
   }
   footer p {
-    text-align: left;
+    color: white ;
+   
     font-size:medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  

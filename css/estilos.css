@@ -4,7 +4,8 @@ body {
   margin: 5px;
 }
 body img {
-margin: auto;
+
+  margin: auto;
 }
 header{
   
@@ -78,10 +79,10 @@ section h4 {
 section p {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  font-family: "Rock Salt", cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: justify;
-  font-style: oblique;
-  font-size: 20px;
+ 
+  font-size: 25px;
   opacity: 0.8;
   margin: 10px;
  
@@ -96,9 +97,9 @@ section p {
   width: 90%;
   text-align: center;
   justify-content: center;
-  font-family: "Rock Salt", cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   background-color: black;
   opacity: 0.8;
   margin: auto;
@@ -124,20 +125,18 @@ section p {
   margin-left: 300px;
   padding: 5px;
 }
-#footer {
-  background-color: black;
-  color: yellow;
-  font-family: "Permanent Marker", cursive;
- 
-}
+
 footer{
   
-	margin: 0 0 0 25px;
-	width: 95%;
+  margin-top: 2em;
+  padding: 3em 0;
   text-align: center;
+  background-color: black;
+  clear: both;
 }
 footer p {
-  text-align: left;
+  color: white ;
+ 
   font-size:medium;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }

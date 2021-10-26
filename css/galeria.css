@@ -1,15 +1,15 @@
 body{
     background-image: url(/img/fitito.jpg);
     background-repeat: repeat-y;
-    margin: 0px; 
+    margin: 5px; 
  
 }
 header{
-    background-color: rgba(0, 0, 0, 0.774);
-    padding: 1em 0;
+    
+    padding: 0;
   }
   header img{
-    margin-left: 10px;
+   
     box-shadow: 0 0 20px white;
   }
   header h1{
@@ -19,8 +19,8 @@ header{
     font-style: italic;
     font-weight: 200;
     display: inline-block;
-    position: relative;
-    bottom: 30px;
+    position: absolute;
+    
     margin-left: 0.5em;
     font-family: "Tourney", cursive;
   }
@@ -30,47 +30,48 @@ header{
     text-shadow: 5px 5px 10px white ;
   
   }
-nav{
-  background-color: black;
-  margin-bottom: 0.1em;
-  box-shadow: 10px 5px 15px gray;
+  nav{
+    background-color: black;
+    margin-bottom: 0.1em;
+    box-shadow: 10px 5px 15px gray;
+    
   
-
-}
-nav ul{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-inline-start: 10px;
+  }
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 10px;
+    
+  }
+  nav ul li{
+    
+    width: 19.5%;
+    display: inline-block;
+    
   
-}
-nav ul li{
+  }
+  nav ul li a{
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
   
-  width: 19.5%;
+  }
+  nav ul li a:hover{
+    background-color: yellow;
+    color: black;
+  }
   
-
-}
-nav ul li a{
-  color: yellow;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  font-size: 20px;
-
-}
-nav ul li a:hover{
-  background-color: yellow;
-  color: black;
-}
-
-a {
+  a {
+    
+    font-size: 10px;
+    font-family: "Permanent Marker", cursive;
+    color: rgb(209, 209, 4);
+    
+  }
   
-  font-size: 10px;
-  font-family: "Permanent Marker", cursive;
-  color: rgb(209, 209, 4);
-  background-color: rgba(0, 0, 0, 0.836);
-}
-
 section{
     width: 91%;
 /*   border-top: 1px dashed yellow;*/
@@ -89,10 +90,10 @@ section{
 .item{
 	background-color: rgba(234, 255, 46, 0.719);
 	width: fit-content;
-    height: 200px;
+  height: 200px;
 	margin: 10px;
 	font-size: 20px;
-    border-radius: 10px;
+  border-radius: 10px;
     
 }
 .item img{
@@ -117,4 +118,18 @@ section{
 }
 .video:hover{
     transform: scale(1.1);
+}
+footer{
+  
+  margin-top: 2em;
+  padding: 3em 0;
+  text-align: center;
+  background-color: black;
+  clear: both;
+}
+footer p {
+  color: white ;
+ 
+  font-size:medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
