@@ -19,6 +19,8 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="validar.js"></script>
+
 </head>
 
 
@@ -43,10 +45,7 @@
     </ul>
   </nav>
   <section>
-
-
-
-    <!--<script type="text/javascript" src="https://form.jotform.com/jsform/212714103282646"></script>-->
+    <h2>Formulario de Contacto</h2>
   </section>
   <aside>
     <div class="mapa">
@@ -55,60 +54,40 @@
         width="480" height="350" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </aside>
-  <div id="formulario">
-    <h2>Formulario de Contacto</h2>
+  
+   
 
-    <form action="Link" method="POST" target="_blank">
-      <p>Nombre:
-        <input type="text" name="Nombre" id="aa">
-        <br>
-      </p>
+    <form action="data.html" id="formulario">
 
-      <p>Apellido
-        <input type="text" name="Apellido" id="aa">
-        <br>
-      </p>
-      <p>Sexo:
-        <select name="Sexo" >
-          <option value=""></option>
-          <option value="">Masculino</option>
-          <option value="">Femenino</option>
-        </select>
-        <br>
-      </p>
-      <p>E-mail
-        <input type="email" name="Nombre" value="pepito@gmail.com">
-        <br>
-      </p>
+     <label for="firstname">Nombre:</label>  
+      <input type="text" name="Nombre" placeholder="Ingrese su nombre" id="firstname" ><br>
+      <label for="last_name">Apellido:</label>  
+      <input type="text" name="Apellido" placeholder="Ingrese su nombre" id="last_name"><br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" ><br>
+      <label for="tel">Telefono:</label>
+      <input type="tel" name="telefono" id="phone" placeholder="xx-xxxx-xxxx" ><br>
+      
+        Sexo: 
+        Masculino<input type="radio" name="sexo" value="Masculino" >
+        Femenino<input type="radio" name="sexo" value="Femenino" >
+    
       <p>Mensaje: <br>
-        <textarea name="comentario" id="" cols="30" rows="10">Escriba su consulta...</textarea>
+        <textarea name="comentario" id="comment" cols="30" rows="10" placeholder="Escriba su consulta...." ></textarea>
       </p>
-
-
-      <br>
-      <input type="submit" value="Enviar">
+      <input type="submit" value="Enviar"  >
       <input type="reset" value="Limpiar">
 
     </form>
-  </div>
+    
+
 
   <footer>
     <div>
-      <a href="https://www.facebook.com/EXTREMEGARAGE.DETAILING" target="_blank"
-        ><i
-          class="fab fa-facebook"
-          style="color: black; font-size: xx-large; background-color: yellow"
-          >Extremo Garage</i
-        ></a
-      >
-      <a
-        href="https://www.instagram.com/extremegarage.detailing/?hl=es"
-        target="_blank"
-        ><i
-          class="fab fa-instagram"
-          style="color: black; font-size: xx-large; background-color: yellow"
-          >extremegarage.detailing</i
-        ></a>
+      <a href="https://www.facebook.com/EXTREMEGARAGE.DETAILING" target="_blank"><i class="fab fa-facebook"
+          style="color: black; font-size: xx-large; background-color: yellow">Extremo Garage</i></a>
+      <a href="https://www.instagram.com/extremegarage.detailing/?hl=es" target="_blank"><i class="fab fa-instagram"
+          style="color: black; font-size: xx-large; background-color: yellow">extremegarage.detailing</i></a>
       <p>
         Martin Coronado 1780, Gregorio de Laferrere, Buenos Aires, Argentina
       </p>
@@ -116,8 +95,8 @@
     </div>
   </footer>
 
-
-
+  <script src="/js/validar.js"></script>  
+  
 </body>
 
 </html>

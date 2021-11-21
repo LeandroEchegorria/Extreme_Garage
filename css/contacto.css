@@ -74,30 +74,29 @@ body {
   
 #formulario{ 
     width: fit-content;
-    background-color: rgba(222, 184, 135, 0.63);
+    background-color: lightyellow;
     color: black;
-    font-family: "Permanent Marker", cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5rem ;
     float: left;
     margin-left: 5% ;
-}
-#formulario h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
-    padding: 15px;
-}
-  section{
-    
-    margin: auto ;
-    width: 90%;
+    margin-top: 1%;
     padding: 10px;
+}
+
+  section{
+    background-color: lightyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5% ;
+    width: fit-content;
+    padding: 5px;
 }
 
 .mapa{
     border: black solid 10px ;
     border-radius: 10px;
     float: right;
-    margin: 10% ;
+    margin-right: 10% ;
 }
 .facebook {
     margin-left: 230px;
